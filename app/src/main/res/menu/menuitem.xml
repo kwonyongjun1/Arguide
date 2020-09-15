@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_main"
+        android:title="메인" />
+    <item
+        android:id="@+id/menu_navigation"
+        android:title="길찾기" />
+    <item
+        android:id="@+id/menu_arguide"
+        android:title="AR 가이드" />
+</menu>
