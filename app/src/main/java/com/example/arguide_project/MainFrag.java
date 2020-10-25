@@ -17,9 +17,6 @@ import android.view.ViewGroup;
 public class MainFrag extends Fragment {
 
     private View view;
-    public MainFrag(){
-
-    }
 
     @Nullable
     @Override
