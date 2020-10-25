@@ -11,6 +11,12 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import org.jsoup.Jsoup;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView; //바텀 네비게이션 뷰
     FragmentManager fm;
@@ -28,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
         /*fm = getSupportFragmentManager();
         ft = fm.beginTransaction();*/
+
+
 
         bottomNavigationView = findViewById(R.id.bottomNV);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
