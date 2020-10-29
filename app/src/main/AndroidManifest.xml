@@ -14,6 +14,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Join"></activity>
         <activity android:name=".Login" />
+
+        <!--main-->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--unity-->
+        <activity android:name=".UnityPlayerActivity" />
+
     </application>
 
 </manifest>

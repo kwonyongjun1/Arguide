@@ -23,4 +23,5 @@ public class ArguideFrag extends Fragment {
         view = inflater.inflate(R.layout.activity_arguide_frag, container, false);
         return view;
     }
+
 }
